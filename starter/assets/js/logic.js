@@ -32,7 +32,6 @@ var initialsInput = document.querySelector("#initials");
 var submitButton = document.querySelector("#submit");
 var feedback = document.querySelector("#feedback");
 var timer = document.querySelector("#time");
-var highscores = document.querySelector("#highscores");
 var clear = document.querySelector("#clear");
 var startScreen = document.querySelector("#start-screen")
 
@@ -116,3 +115,4 @@ function saveScore() {
   localStorage.setItem("score", score);
   window.location.href = "highscores.html";
 }
+
